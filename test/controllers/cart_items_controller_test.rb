@@ -47,6 +47,7 @@ class CartItemsControllerTest < ActionDispatch::IntegrationTest
     
     assert_equal "complete", @controller.action_name
     assert_equal 0, CartItem.where(user_id: @user.id).count
+    assert_not_equal 0, CartItem.where(user_id: @user2.id).count
     assert_redirected_to user_purchased_items_url(@user)
   end
  
