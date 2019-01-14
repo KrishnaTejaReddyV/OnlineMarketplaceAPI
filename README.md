@@ -1,4 +1,4 @@
-<h1>ROUTES</hi>
+<h1>ROUTES</h1>
 <table>
     <tbody>
         <tr>
