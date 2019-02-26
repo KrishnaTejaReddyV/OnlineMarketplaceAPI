@@ -1,4 +1,15 @@
-<h1>ROUTES</h1>
+# Online Marketplace API
+A Ruby on Rails based API service which can handle operations of an online marketplace
+
+## Features
+-	Supports routes to add, update, delete and display users
+-	Creates a cart for each user from which they can purchase products
+-	Supports routes to add, update, delete and display products
+-	Allows products to be added or removed from a user cart
+-	Supports display of all items purchased by a user
+
+
+## Routes
 <table>
     <tbody>
         <tr>
